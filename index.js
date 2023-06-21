@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
     cors({
-      origin: `https://codeangofullstackcourse.netlify.app/`,
+      origin: `https://codeangofullstackcourse.netlify.app`,
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
       preflightContinue: false,
       optionsSuccessStatus: 204,
