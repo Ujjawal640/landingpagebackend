@@ -29,7 +29,7 @@ app.use(
 // Set up a route to handle the form submission
 app.post('/send', async(req, res) => {
   // Extract form data
-  const { name, email, number,experience } = req.body;
+  const { name, email, number,course } = req.body;
 
  
 
@@ -52,7 +52,7 @@ app.post('/send', async(req, res) => {
       Name: ${name}
       Email: ${email}
       Number: ${number}
-      Experience: ${experience}
+      Course: ${course}
     `,
   };
 
